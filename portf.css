@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-image: url('./BACK3.jpg');
+    /* background-image: url('./BACK3.jpg'); */
+    background-color: #000;
     background-repeat: inherit;
     opacity: 5;
     /* background-repeat: no-repeat; */
