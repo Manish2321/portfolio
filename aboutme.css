@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+     background-image: url(./bac2.jpg);
+}
+
+.lo{
+    display: flex;
+    float: left;
+   
+   
+}
+.mu img{
+    height: 400px;
+    width: auto;
+    margin-left: 30px;
+    border-right: 6px solid gray;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+ h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.mai p{
+    text-align: center;
+    width: 400px;
+    padding: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 35px;
+    border: 1px solid salmon;
+    background-color:rgb(228, 65, 165);
+    margin-left: 10px;
+    /* box-sizing: border-box;
+    border-radius: 10px; */
+}

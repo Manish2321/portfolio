@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/BACK3.jpg');
+    background-repeat: inherit;
+    opacity: 5;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* position: absolute; */
+    
+   
+    /* position: relative; */
+}
+
+.nav ul li{
+     
+    display: inline;
+    float: left;
+    margin: 30px;
+    color: rgb(224, 233, 240);
+    transition: 1s;
+    
+      
+
+}
+/* .nav ul li a:hover{
+    transition: 3s; */
+/* } */
+.nav ul li:hover{
+    /* color: aqua; */
+    background-color: rgb(236, 75, 196);
+    /* margin: auto; */
+    padding: 15px;
+     /* position: fixed;  */
+    text-decoration: none;
+    
+    /* cursor: pointer;
+    background: transparent; */
+    
+}
+
+.nav a{
+ 
+    text-decoration: none;
+    color:azure;
+    
+}
+
+.nav{
+   background-color: #000;
+   position: fixed;
+   width: 100%;
+   height: 80px;
+}
+.port  {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 100%;
+    height: 30px;
+    width: auto;
+    color: red;
+
+}
+.head img {
+    height: 300px;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.sec{
+    display: inline;
+}
+.head h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    color: aquamarine;
+    /* margin-left: 30px; */
+    background-color: #000;
+}
+.about {
+    display: flex;
+    float: left;
+    color: black;
+
+}
+.about .one p:hover{
+    background-color: rgb(250, 121, 239);
+    transition: 1s;
+
+}
+.about .one p{
+    /* background-color: aquamarine; */
+    margin: 30px;
+    padding: auto;
+    text-align: center;
+    width: 200px;
+}
+.about .two p{ 
+    /* background-color: aquamarine; */
+    margin: 30px;
+    padding: auto;
+    text-align: center;
+    width: 200px;
+    color: rgb(236, 75, 196);
+    font-size: 30px;
+}
+.about .two p:hover{
+    background-color: rgb(15, 7, 15);
+    transition: 1s;
+   /* transition-delay: 0.5s; */
+}
+.one h2{
+    color: palegreen;
+}
+.two h2{
+    color: palegreen;
+}
+.foot1{
+     background-color: black;
+}
+.html::-webkit-scrollbar{
+    width: 1.4em;
+}
+.head{
+    display: block;
+    text-align: center;
+    /* background-color: #000; */
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+.heading{
+    color: aquamarine;
+}
+.MKNA ul li { text-decoration: none;
+    color: red;
+    
+
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:rgb(248, 17, 17);
+    text-transform: none;
+    font-size: 1.7rem;
+    width:50%;
+}
+
+/* manish */
+.contact input::placeholder{
+    color: aqua;
+}
+
+.contact #message::placeholder{
+    color: aqua;
+
+}
+
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height: 10rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:rgb(179, 247, 20);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:rgb(238, 238, 238);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+.h1 {
+    color: #fff;
+}
+.mkna ul li{
+   
+    
+    margin: 50px;
+   
+
+}
+.mkna a{
+    text-decoration: none;
+    color: red;
+}
+.mkna ul li:hover{
+    background-color: aqua;
+    transition: 1s;
+    /* padding: 20px; */
+    /* justify-content: center; */
+    text-align: center;
+    border: 2px;
+    padding-left: 5px;
+    /* margin-right: 40px;  */
+   /* position: static; */
+ } 
+ .head img{
+     animation-name: sample;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: ease-out;
+
+ }
+ @keyframes sample{
+     from{border-radius: 0%;}
+     to{border-radius: 50%;}
+ }
+ .education{
+     transition-property: width;
+     transition-duration: 1s;
+     transition-timing-function: linear;
+     transition-delay: 2s;
+ }
+ @media(max-width:992px){
+     
+
+ }
